@@ -1,0 +1,46 @@
+---
+title: "DSCI412_What_I_Learned"
+author: "Chris Moore"
+date: "2022-12-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 1- Evaluating models and the Bias Variance Tradeoff
+
+      In Week 1 of the course we started off with introductory material covering how to load data into R and then quickly moved into Supervised Learning Models. The first models we learned to implement were classification models and we learned about how to evaluate the models accuracy using the Root Mean Square Error (RMSE). RMSE in very short shows the difference between the actual values and our models predicted values. We also learned to evaluate the R squared value, R squared shows you how much of the models variance cannot be explained and is a value from 0.00 to 1.00. Lastly we focused on the Bias Variance Tradeoff, which is a term used to explain the balance between having a model that is overly biased or has too great a variance. A good model will have a happy balance between the two.  
+        
+        
+
+## Week 2
+
+     In Week 2 we learned how to use the **summary** function to quickly take a look at large datesets and see potential problems in the data such as missing or NA values. We also learned how to use different data visualizations **ggplot** library in order to plot data and show whether it had a normal distribution. Visualization can also be used to show if there is a relationship between variables in your data.   
+       
+       
+     
+## Week 3  
+  
+      In Week 3 we began our journey into the use of ML models starting with standard Linear Regression. Linear Regression models are used to predict numerical quantitative values such as stock projections, the quantitative spread of a virus, or something simple like the depreciation of a vehicle's value over time. From the reading we also learned about methods that can be used to assess the accuracy of LinReg models and interpretting the outputs. The most valuable method for testing our model is always testing it against the training data, but there are several other diagnostics such as plot the residual error of a model and checking the spread from 0 on the Y axis. 
+
+## Week 4  
+  
+      In Week 4 we used Logistic Regression models which are useful for solving categorical or qualitative problems. If for example we wanted to predict whether tumors were malignant or benign we could use a LogReg model. We also learned about the use of a confusion matrix to present the precision and recall of a model. Precision shows the percentage of true positive values compared to true positives and false positives. Recall shows the percentage of true positives compared to true positives and false negatives. Recall is important when you need to minimize the amount of false negatives and precision is important when you want to minimize the amount of false positives. In practicality we want to have a high level of accuracy for both metrics. 
+
+## Week 5  
+  
+      In Week 5 we studied Generalized Linear Models which can be used when the need to relax the restrictions/assumptions of a LinReg is required. GLMs allow us to make predictions on data that is not normalized. The distribution of the data doesn't need to be normalized in a GLM , but we have three different distribution methods that allow us to make different predictions based on the data we provide. Poisson distribution can be used when we want to predict the number of events in a discrete period of time and Gamma regression is used to model the time between independent events that occur at a constant average rate.
+
+## Week 6  
+  
+     In Week 6 we learned about decision tree models and random forest designs, this was my favorite week. Decision tree models are simple and something that most non technical persons can easily understand. Based on the data the model is built upon the alogrithm creates a tree of choices and then works through each choice to make decisions about qualitative variables. Outside of the programming world these are commonly seen in workflow charts that asks a series of questions if the answer is no to a question you are guided to another branch of the chart if the answer is yes you continue working down the chart until there are no more brances to travel down. We also used random forest models which are a method to reduce the oversimplification of predictions by creating multiple trees that must be assessed to make a prediction. As the name states the variables included in each tree are done so at random, which allows the model to have a higher accuracy. 
+
+## Week 7  
+  
+    In Week 7 we looked at clustering models which are used for categorization. These are useful for a multitude of purposes, but some examples are classifying types of images , classifying languages of text, or as we saw in the course material classifying states into high,medium, and low categories for arrest rates. In our discussion post for week 7 we investigated the use cases for unsupervised learning. Unsupervised learning is used mostly for exploratory analysis when we have a lot of data, but we aren't sure what predictions can be drawn about the data or what is of interest. Clustering models are one example of unsupervised models , but there are several types of unsupervised model one that we have all probably been exposed to are anomaly detection models in banking for strange transactions that may have not been initiated by the account holder. 
+
+## Week 8  
+  
+     In week 8 we learned about GIT which is a version control system for code. Git allows a coder to create multiple versions of their code and also allows collaboration on code and models in real time across multiple  systems. I learned about Git commands that can be  used to push new code , create repositories, and copy code from repositories. This was our final week and was also the prompt for this document. 
